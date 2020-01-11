@@ -1,0 +1,10 @@
+D:\WorkData\CustomComponents\bin\Debug\CustomComponents.dll
+D:\WorkData\CustomComponents\bin\Debug\CustomComponents.pdb
+D:\WorkData\CustomComponents\obj\Debug\CustomComponents.dll
+D:\WorkData\CustomComponents\obj\Debug\CustomComponents.pdb
+D:\WorkData\CustomComponents\bin\Debug\CustomComponents.xml
+C:\Users\Abstergo\Desktop\VS\CustomComponents\bin\Debug\CustomComponents.xml
+C:\Users\Abstergo\Desktop\VS\CustomComponents\bin\Debug\CustomComponents.dll
+C:\Users\Abstergo\Desktop\VS\CustomComponents\bin\Debug\CustomComponents.pdb
+C:\Users\Abstergo\Desktop\VS\CustomComponents\obj\Debug\CustomComponents.dll
+C:\Users\Abstergo\Desktop\VS\CustomComponents\obj\Debug\CustomComponents.pdb

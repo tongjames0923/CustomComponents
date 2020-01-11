@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CustomComponents</name>
+    </assembly>
+    <members>
+        <member name="T:CustomComponents.BaseControl">
+            <summary>
+            BaseControl.xaml 的交互逻辑
+            </summary>
+            <summary>
+            BaseControl
+            </summary>
+        </member>
+        <member name="M:CustomComponents.BaseControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:CustomComponents.MessageTool.MyMessageBoxButton">
+            <summary>
+            弹出窗口的按钮选择
+            </summary>
+        </member>
+        <member name="F:CustomComponents.MessageTool.MyMessageBoxButton.ConfirmNO">
+            <summary>
+            显示确认与取消按钮
+            </summary>
+        </member>
+        <member name="F:CustomComponents.MessageTool.MyMessageBoxButton.Confirm">
+            <summary>
+            显示确认按钮
+            </summary>
+        </member>
+        <member name="T:CustomComponents.MessageTool.MyMessageBoxResult">
+            <summary>
+            弹窗返回的用户选择
+            </summary>
+        </member>
+        <member name="F:CustomComponents.MessageTool.MyMessageBoxResult.Comfirm">
+            <summary>
+            用户点击了确认
+            </summary>
+        </member>
+        <member name="F:CustomComponents.MessageTool.MyMessageBoxResult.No">
+            <summary>
+            用户点击了取消
+            </summary>
+        </member>
+        <member name="F:CustomComponents.MessageTool.MyMessageBoxResult.Buttons">
+            <summary>
+            用户点击了自定义按钮
+            </summary>
+        </member>
+        <member name="F:CustomComponents.MessageTool.MyMessageBoxResult.None">
+            <summary>
+            用户未点击按钮
+            </summary>
+        </member>
+        <member name="T:CustomComponents.MessageTool.HelpTextLabel">
+            <summary>
+            暂时的提示框
+            </summary>
+        </member>
+        <member name="M:CustomComponents.MessageTool.HelpTextLabel.#ctor(System.Windows.Controls.Grid)">
+            <summary>
+            初始化
+            </summary>
+            <param name="father">该控件的父元素</param>
+        </member>
+        <member name="M:CustomComponents.MessageTool.HelpTextLabel.#ctor(System.Windows.Controls.Canvas)">
+            <summary>
+            初始化
+            </summary>
+            <param name="father">该控件的父元素</param>
+        </member>
+        <member name="P:CustomComponents.MessageTool.HelpTextLabel.Background">
+            <summary>
+            显示时的背景颜色
+            </summary>
+        </member>
+        <member name="P:CustomComponents.MessageTool.HelpTextLabel.NowBackground">
+            <summary>
+            当前的背景颜色
+            </summary>
+        </member>
+        <member name="P:CustomComponents.MessageTool.HelpTextLabel.Content">
+            <summary>
+            设置内容
+            </summary>
+        </member>
+        <member name="P:CustomComponents.MessageTool.HelpTextLabel.Continued">
+            <summary>
+            提示框出现的持续时间（秒）
+            </summary>
+        </member>
+        <member name="M:CustomComponents.MessageTool.HelpTextLabel.#ctor">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="E:CustomComponents.MessageTool.HelpTextLabel.OnShow">
+            <summary>
+            当出现时的操作
+            </summary>
+        </member>
+        <member name="E:CustomComponents.MessageTool.HelpTextLabel.OnDisappear">
+            <summary>
+            当消失时的操作
+            </summary>
+        </member>
+        <member name="M:CustomComponents.MessageTool.HelpTextLabel.HelpText(System.String,System.Windows.Point)">
+            <summary>
+            调用组件
+            </summary>
+            <param name="content">文本内容</param>
+            <param name="point">出现位置</param>
+        </member>
+        <member name="M:CustomComponents.MessageTool.HelpTextLabel.HelpText(System.String,System.Windows.Point,System.Windows.Media.Animation.ColorAnimation)">
+            <summary>
+            带有颜色动画的提示框
+            </summary>
+            <param name="content">文本内容</param>
+            <param name="point">出现位置</param>
+            <param name="color">背景色的动画效果</param>
+        </member>
+        <member name="T:CustomComponents.MessageTool.MyMessageBox">
+            <summary>
+            弹出提示窗口
+            </summary>
+        </member>
+        <member name="M:CustomComponents.MessageTool.MyMessageBox.Show(System.String,System.String,CustomComponents.MessageTool.MyMessageBoxButton,System.String,System.String,System.String)">
+            <summary>
+            弹出提示窗口
+            </summary>
+            <param name="Text">弹窗内容</param>
+            <param name="TitleText">弹窗标题</param>
+            <param name="myMessageBoxButton">按钮配置</param>
+            <param name="ConfirmText">确认按钮信息</param>
+            <param name="NoText">取消按钮信息</param>
+            <param name="ButtonText">自定义按钮信息</param>
+            <returns></returns>
+        </member>
+        <member name="T:CustomComponents.CustomInputBox.BaseInputBox">
+            <summary>
+            弹出用户输入信息窗口
+            </summary>
+        </member>
+        <member name="F:CustomComponents.CustomInputBox.BaseInputBox.ReturnVaule">
+            <summary>
+            获取返回值
+            </summary>
+        </member>
+        <member name="F:CustomComponents.CustomInputBox.BaseInputBox.ItemPad">
+            <summary>
+            窗口控件主模块
+            </summary>
+        </member>
+        <member name="M:CustomComponents.CustomInputBox.BaseInputBox.Custom(CustomComponents.InPutBoxfoundation.IInputBoxCreate)">
+            <summary>
+            自定义模块
+            </summary>
+            <param name="box"></param>
+        </member>
+        <member name="M:CustomComponents.CustomInputBox.BaseInputBox.Show(System.String,System.String,CustomComponents.InPutBoxfoundation.CustomComponent.ButtonType)">
+            <summary>
+            
+            </summary>
+            <param name="content"></param>
+            <param name="title"></param>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CustomComponents.CustomInputBox.InputBox">
+            <summary>
+            文本输入框
+            </summary>
+        </member>
+        <member name="M:CustomComponents.CustomInputBox.InputBox.Show(System.String,System.String,CustomComponents.InPutBoxfoundation.CustomComponent.ButtonType)">
+            <summary>
+            弹出窗口
+            </summary>
+            <param name="content">提示文本</param>
+            <param name="title">标题</param>
+            <param name="type">按钮类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:CustomComponents.CustomInputBox.InputBox.Create(CustomComponents.BaseControl)">
+            <summary>
+            创建主要控件
+            </summary>
+            <param name="ItemPad"></param>
+        </member>
+        <member name="T:CustomComponents.CustomInputBox.DateInputBox">
+            <summary>
+            日期输入框
+            </summary>
+        </member>
+        <member name="M:CustomComponents.CustomInputBox.DateInputBox.Show(System.String,System.String,CustomComponents.InPutBoxfoundation.CustomComponent.ButtonType)">
+            <summary>
+            弹出窗口
+            </summary>
+            <param name="content">提示文本</param>
+            <param name="title">标题</param>
+            <param name="type">按钮类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:CustomComponents.CustomInputBox.DateInputBox.Create(CustomComponents.BaseControl)">
+            <summary>
+            创建主要控件
+            </summary>
+            <param name="control"></param>
+        </member>
+        <member name="T:CustomComponents.InPutBoxfoundation.CustomComponent">
+            <summary>
+            用于创建自定义弹窗的抽象类
+            </summary>
+        </member>
+        <member name="M:CustomComponents.InPutBoxfoundation.CustomComponent.Show(System.String,System.String,CustomComponents.InPutBoxfoundation.CustomComponent.ButtonType)">
+            <summary>
+            弹出提示窗口
+            </summary>
+            <param name="Text">弹窗内容</param>
+            <param name="TitleText">弹窗标题</param>
+            <param name="myMessageBoxButton">按钮配置</param>
+            <returns></returns>
+        </member>
+        <member name="T:CustomComponents.InPutBoxfoundation.CustomComponent.ButtonType">
+            <summary>
+            弹出窗口的按钮选择
+            </summary>
+        </member>
+        <member name="F:CustomComponents.InPutBoxfoundation.CustomComponent.ButtonType.ConfirmNO">
+            <summary>
+            显示确认与取消按钮
+            </summary>
+        </member>
+        <member name="F:CustomComponents.InPutBoxfoundation.CustomComponent.ButtonType.Confirm">
+            <summary>
+            显示确认取消与自定义按钮
+            </summary>
+        </member>
+        <member name="T:CustomComponents.InPutBoxfoundation.CustomComponent.Result">
+            <summary>
+            弹窗返回的用户选择
+            </summary>
+        </member>
+        <member name="F:CustomComponents.InPutBoxfoundation.CustomComponent.Result.Comfirm">
+            <summary>
+            用户点击了确认
+            </summary>
+        </member>
+        <member name="F:CustomComponents.InPutBoxfoundation.CustomComponent.Result.No">
+            <summary>
+            用户点击了取消
+            </summary>
+        </member>
+        <member name="F:CustomComponents.InPutBoxfoundation.CustomComponent.Result.None">
+            <summary>
+            用户点击了自定义按钮
+            </summary>
+        </member>
+        <member name="T:CustomComponents.InPutBoxfoundation.IInputBoxCreate">
+            <summary>
+            自定义输入窗口的接口
+            </summary>
+        </member>
+    </members>
+</doc>

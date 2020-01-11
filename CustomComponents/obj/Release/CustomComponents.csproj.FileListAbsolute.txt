@@ -1,0 +1,16 @@
+D:\WorkData\CustomComponents\bin\Release\CustomComponents.dll
+D:\WorkData\CustomComponents\bin\Release\CustomComponents.pdb
+D:\WorkData\CustomComponents\obj\Release\CustomComponents.dll
+D:\WorkData\CustomComponents\obj\Release\CustomComponents.pdb
+D:\WorkData\CustomComponents\bin\Release\CustomComponents.xml
+C:\Users\Abstergo\Desktop\VS\CustomComponents\bin\Release\CustomComponents.xml
+C:\Users\Abstergo\Desktop\VS\CustomComponents\bin\Release\CustomComponents.dll
+C:\Users\Abstergo\Desktop\VS\CustomComponents\bin\Release\CustomComponents.pdb
+C:\Users\Abstergo\Desktop\VS\CustomComponents\obj\Release\CustomComponents.csprojAssemblyReference.cache
+C:\Users\Abstergo\Desktop\VS\CustomComponents\obj\Release\CustomComponents.dll
+C:\Users\Abstergo\Desktop\VS\CustomComponents\obj\Release\CustomComponents.pdb
+D:\WorkData\CustomComponents\obj\Release\BaseControl.g.cs
+D:\WorkData\CustomComponents\obj\Release\CustomComponents_MarkupCompile.cache
+D:\WorkData\CustomComponents\obj\Release\CustomComponents_MarkupCompile.lref
+D:\WorkData\CustomComponents\obj\Release\BaseControl.baml
+D:\WorkData\CustomComponents\obj\Release\CustomComponents.g.resources
